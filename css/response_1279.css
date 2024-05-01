@@ -1,0 +1,161 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .first_section .info
+    {
+        max-width: 414px;
+        min-height: 360px;
+        padding: 40px 32px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+
+    .first_section .payments .row > *
+    {
+        height: 72px;
+    }
+
+
+    .first_section .payments img
+    {
+        height: 28px;
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .features:before
+    {
+        top: -357px;
+        left: -534px;
+    }
+
+    .features:after
+    {
+        top: -93px;
+        right: -610px;
+    }
+
+
+    .features .cont
+    {
+        padding: 0 24px 596px;
+    }
+
+
+    .features .block_title
+    {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .features .data
+    {
+        width: 100%;
+    }
+
+
+    .features .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .features .apps
+    {
+        right: auto;
+        bottom: 64px;
+        left: 50%;
+
+        margin-right: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .features .bg2
+    {
+        top: auto;
+        bottom: 16px;
+        left: 50%;
+
+        width: 768px;
+        height: 676px;
+        margin-right: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .text
+    {
+        margin-bottom: 32px;
+        padding-top: 40px;
+    }
+
+
+    footer .text > *
+    {
+        width: 100%;
+    }
+
+    footer .text > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .responsibility
+    {
+        justify-content: center;
+    }
+}

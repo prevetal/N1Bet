@@ -1,0 +1,21 @@
+@media print,
+(max-width: 1679px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features .cont
+    {
+        padding: 0 56px;
+    }
+}

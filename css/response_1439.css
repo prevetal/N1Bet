@@ -1,0 +1,98 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info
+    {
+        max-width: 600px;
+        min-height: 420px;
+        padding: 56px;
+    }
+
+
+    .first_section .info .pre_title
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 42px;
+        line-height: 52px;
+
+        margin-top: 16px;
+    }
+
+
+    .first_section .info .sub_title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 12px;
+    }
+
+
+    .first_section .info .link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features .cont
+    {
+        padding: 0 64px;
+    }
+
+
+    .features .data
+    {
+        width: 528px;
+    }
+
+
+    .features .apps
+    {
+        bottom: 112px;
+
+        margin-right: -500px;
+    }
+
+
+    .features .bg2
+    {
+        top: -56px;
+
+        width: 800px;
+        height: 703px;
+        margin-right: -732px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 48px;
+    }
+}

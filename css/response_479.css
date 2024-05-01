@@ -1,0 +1,52 @@
+@media (max-width: 479px)
+{
+    /*------------
+        Header
+    ------------*/
+    header .account a
+    {
+        font-size: 12px;
+
+        height: 32px;
+        padding: 6px 10px;
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features .cont
+    {
+        padding: 0 16px 576px;
+    }
+
+
+    .features .apps
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .features .apps > * + *
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+
+    .features .apps a
+    {
+        width: 219px;
+    }
+
+
+    .features .bg2
+    {
+        bottom: 144px;
+
+        width: 528px;
+        height: 465px;
+    }
+}
